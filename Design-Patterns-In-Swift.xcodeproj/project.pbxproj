@@ -16,6 +16,7 @@
 		527C29932B33218700CF81FF /* screenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C29922B33218700CF81FF /* screenFactory.swift */; };
 		527C29962B332E0F00CF81FF /* BuilderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C29952B332E0F00CF81FF /* BuilderVC.swift */; };
 		527C29992B33303B00CF81FF /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C29982B33303B00CF81FF /* MealBuilder.swift */; };
+		527C299C2B33393500CF81FF /* Signleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C299B2B33393500CF81FF /* Signleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		527C29952B332E0F00CF81FF /* BuilderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderVC.swift; sourceTree = "<group>"; };
 		527C29972B332FAE00CF81FF /* differences-b-fac-bu.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "differences-b-fac-bu.md"; sourceTree = "<group>"; };
 		527C29982B33303B00CF81FF /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
+		527C299B2B33393500CF81FF /* Signleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signleton.swift; sourceTree = "<group>"; };
+		527C299D2B3339AF00CF81FF /* Singleton.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Singleton.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		527C298C2B331E5000CF81FF /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				527C299A2B33383500CF81FF /* Singleton */,
 				527C29942B332DCE00CF81FF /* Builder */,
 				527C298F2B331EB600CF81FF /* Factory */,
 			);
@@ -124,6 +128,15 @@
 				527C29982B33303B00CF81FF /* MealBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		527C299A2B33383500CF81FF /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				527C299B2B33393500CF81FF /* Signleton.swift */,
+				527C299D2B3339AF00CF81FF /* Singleton.md */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +214,7 @@
 				527C29782B331DCD00CF81FF /* AppDelegate.swift in Sources */,
 				527C297A2B331DCD00CF81FF /* SceneDelegate.swift in Sources */,
 				527C29992B33303B00CF81FF /* MealBuilder.swift in Sources */,
+				527C299C2B33393500CF81FF /* Signleton.swift in Sources */,
 				527C29962B332E0F00CF81FF /* BuilderVC.swift in Sources */,
 				527C29912B331F8F00CF81FF /* FactoryVC.swift in Sources */,
 			);
